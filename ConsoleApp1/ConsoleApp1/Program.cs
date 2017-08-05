@@ -6,7 +6,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string hello = "HELLO WORLD";
+            string hello2 = "HELLO WORLD";
+
+            var x = string.Intern("HELLO WORLD");
+            var b = object.ReferenceEquals(hello, x);
+
+            Console.WriteLine(hello);
+           // String.Intern()
         }
     }
 }
