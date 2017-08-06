@@ -14,6 +14,8 @@ namespace ConsoleApp1
 
             // this is master
 
+            // this is feature
+
             Console.WriteLine(hello);
            // String.Intern()
         }
