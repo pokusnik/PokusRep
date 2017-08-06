@@ -12,6 +12,8 @@ namespace ConsoleApp1
             var x = string.Intern("HELLO WORLD");
             var b = object.ReferenceEquals(hello, x);
 
+            // this is master
+
             Console.WriteLine(hello);
            // String.Intern()
         }
